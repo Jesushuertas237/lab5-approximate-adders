@@ -25,4 +25,4 @@ echo "$count archivos .v copiados a $hld_dir/"
 echo "Limpiando archivos temporales..."
 rm -rf "$temp_dir"
 
-echo "Listo! Los archivos estan en: $hld_dir/"
+echo "Los archivos estan en: $hld_dir/"
