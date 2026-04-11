@@ -11,6 +11,7 @@ echo "Modulo,Slice_LUTs,Slice_Registers" > "$output_file"
 
 # Iterar sobre cada .log
 for log in "$log_dir"/*.log; do
+    [[ -f "$log" ]] || continue
     nombre=$(basename "$log" .log)
 
     # Extraer Slice LUTs (columna Used)
