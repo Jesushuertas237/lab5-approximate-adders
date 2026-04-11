@@ -14,7 +14,7 @@ err()     { echo "[ERROR ] $(date '+%H:%M:%S') $*" >&2; exit 1; }
 
 
 # Verificar que los scripts existen
-for script in setup_hld.sh synthesize.sh parse_reports.sh; do
+for script in setup_hdl.sh synthesize.sh parse_reports.sh; do
     [[ -f "$script" ]] || err "Script no encontrado: $script"
     chmod +x "$script"
 done
@@ -32,7 +32,7 @@ INICIO=$(date +%s)
 
 echo ""
 log "PASO 1: Descarga y preparacion de archivos .v"
-bash setup_hld.sh || err "Paso 1 fallo."
+bash setup_hdl.sh || err "Paso 1 fallo."
 success "Paso 1 completado."
 
 
