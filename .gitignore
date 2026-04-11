@@ -2,5 +2,7 @@ vivado.jou
 vivado.log
 *.backup.jou
 *.backup.log
+.Xil/
 logs/
 hdl/
+*.save
