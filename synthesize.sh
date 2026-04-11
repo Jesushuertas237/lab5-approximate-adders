@@ -10,7 +10,7 @@ for file in "$hdl_dir"/*.v
 do
     nombre=$(basename "$file" .v)
     echo "Sintetizando $nombre..."
-    vivado -mode tcl -source "$tcl_script" -tclargs "$file" > "$log_dir/${nombre}.log" 2>&1
+    vivado -mode batch -source "$tcl_script" -tclargs "$file" > "$log_dir/${nombre}.log" 2>&1
     echo "Reporte guardado en $log_dir/${nombre}.log"
 done
 
