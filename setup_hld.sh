@@ -1,4 +1,3 @@
-#!/bin/bash
 
 repo_url="https://github.com/ehw-fit/evoapproxlib"
 target_path="adders/8_unsigned/pareto_pwr_ep"
