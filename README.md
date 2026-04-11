@@ -10,13 +10,17 @@
 | Nombre | GitHub |
 |--------|--------|
 | Jesus Huertas Rojas | Jesushuertas237 |
-| Andrea Garcia Borges | |
-
-
+| Andrea Garcia Borges |andreagarciab0118-diseño|
 
 
 ## Nota sobre el uso de IA
 
+Se permitió el uso de herramientas de IA como apoyo para comprensión, generación de ideas y mejora de redacción. La implementación, validación y resultados son responsabilidad del estudiante.
+
+En caso de uso, se adjuntan las conversaciones como evidencia. El funcionamiento del sistema puede demostrarse mediante pruebas, garantizando la comprensión de los conceptos y la correcta operación de la solución.
+
+Link de conversación con IA : https://chatgpt.com/c/69d857a7-7d50-83e8-b765-d0591965b41d
+                              https://claude.ai/chat/77322765-346c-4981-af1b-7d09cfebb5d9
 
 <img width="1005" height="805" alt="Captura desde 2026-04-11 10-12-02" src="https://github.com/user-attachments/assets/4b62660e-70fd-4ae9-b838-e0d63deea1d4" />
 <img width="570" height="845" alt="Captura desde 2026-04-11 10-13-54" src="https://github.com/user-attachments/assets/fcee609d-9875-48ab-8c8a-b3925e7d483d" />
@@ -48,17 +52,6 @@
 <img width="682" height="837" alt="imagen" src="https://github.com/user-attachments/assets/4545feab-8ec7-4640-8b1f-68d2fd4d3c55" />
 <img width="683" height="883" alt="imagen" src="https://github.com/user-attachments/assets/3cf65e3b-21f2-4f65-962f-0ef8c8b9b7ae" />
 <img width="683" height="883" alt="imagen" src="https://github.com/user-attachments/assets/8c41f0d3-42eb-46fb-a1ab-7650da640adf" />
-
-
-
-
-
-
-
-
-
-
-
 
 
 
