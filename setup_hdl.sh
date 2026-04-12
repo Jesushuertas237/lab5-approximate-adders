@@ -2,7 +2,7 @@
 
 repo_url="https://github.com/ehw-fit/evoapproxlib"
 target_path="adders/8_unsigned/pareto_pwr_ep"
-hld_dir="./hld"
+hdl_dir="./hdl"
 temp_dir="./tmp_repo"
 
 echo "Clonando repositorio..."
@@ -13,16 +13,16 @@ git sparse-checkout set "$target_path"
 git checkout
 cd ..
 
-echo "Creando directorio hld/..."
-mkdir -p "$hld_dir"
+echo "Creando directorio hdl/..."
+mkdir -p "$hdl_dir"
 
 echo "Copiando archivos .v..."
-find "$temp_dir/$target_path" -name "*.v" -exec cp {} "$hld_dir/" \;
+find "$temp_dir/$target_path" -name "*.v" -exec cp {} "$hdl_dir/" \;
 
-count=$(ls "$hld_dir"/*.v 2>/dev/null | wc -l)
-echo "$count archivos .v copiados a $hld_dir/"
+count=$(ls "$hdl_dir"/*.v 2>/dev/null | wc -l)
+echo "$count archivos .v copiados a $hhdl_dir/"
 
 echo "Limpiando archivos temporales..."
 rm -rf "$temp_dir"
 
-echo "Los archivos estan en: $hld_dir/"
+echo "Los archivos estan en: $hdl_dir/"
